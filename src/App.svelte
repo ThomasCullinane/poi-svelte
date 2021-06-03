@@ -10,7 +10,7 @@
   import Navigator from "./components/Navigator.svelte";
   import Router from "svelte-spa-router";
 
-  setContext("BaronyService", new BaronyService("http://localhost:4000"));
+  setContext("BaronyService", new BaronyService("https://boiling-hamlet-70171.herokuapp.com"));
 
   let routes = {
     "/" : Main,
